@@ -1,0 +1,54 @@
+/*! Global */
+body {
+    min-height: 100vh !important;
+}
+:root{
+    --customBlue: #264653;
+    --customAcqua: #2A9D8F;
+    --customYellow: #E9C46A;
+    --customYMedium: #F4A261;
+    --customOrange: #E76F51;
+}
+/*! BG var */
+.bg-CB{
+    background-color: var(--customBlack);
+}
+.bg-CA{
+    background-color: var(--customAcqua);
+}
+.bg-CY{
+    background-color: var(--customYellow);
+}
+.bg-CYM{
+    background-color: var(--customYMedium);
+}
+.bg-CO{
+    background-color: var(--customOrange);
+}
+
+/*! Text var */
+.txt-CB{
+    color: var(--customBlack) !important;
+}
+.txt-CA{
+    color: var(--customAcqua) !important;
+}
+.txt-CY{
+    color: var(--customYellow) !important;
+}
+.txt-CYM{
+    color: var(--customYMedium) !important;
+}
+.txt-CO{
+    color: var(--customOrange) !important;
+}
+
+/*! Fonts */
+*{
+    font-family: 'Mukta', sans-serif;
+    font-weight: bolder;
+}
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}

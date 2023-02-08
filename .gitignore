@@ -16,3 +16,10 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/storage/*.index
+/storage/insertions.index
+/public/storage/insertions
+/storage/app/public/insertions
+google_credential.json
+composer.json
+composer.lock
